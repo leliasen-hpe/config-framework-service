@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Dependencies
 - CSM 1.6 moved to Kubernetes 1.24, so use client v24.x to ensure compatability
 
+- CASMPET-7219: Bump minimum `cary-service` base chart version from 10.0.5 to 11.0.0. This is only a versioning change, not a change to the base chart.
+
 ## [1.20.0] - 07/24/2024
 ### Changed
 - Update API spec to reflect the actual requirements and format for the age/TTL fields.
